@@ -8,11 +8,7 @@ class Discount extends Component {
         discountStart: 0,
         discountEnd: 30
     }
-
-    // componentDidMount() {
-    //     this.state.discountStart =
-    // }
-
+    
     porcentage = () => {
         if  (this.state.discountStart < this.state.discountEnd) {
             this.setState({
